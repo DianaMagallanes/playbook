@@ -31,7 +31,7 @@ const repo = {
     dateCreated: "11-04-2022",
     lastUpdated: "14-04-2022",
     getTitleAndAuthor: function(){
-      return `This repository ${this.title} was created by ${this.author}`
+      return `This issue ${this.title} was created by ${this.author}`
     },
     getGeneralInfo: function(){
       return `\n Date of Creation: ${this.dateCreated} \n Status(${this.status}). \n The number of comments are: ${this.numberOfComments}`
