@@ -29,15 +29,15 @@ const user  = {
    console.log(post.getGeneralInfo())
 
 
-   const historia  = {
+   const storie  = {
     userCreator: "DianaM",
     imageVideoUrl:"https://www.todofondos.net/wp-content/uploads/mas-de-76-fondos-de-pantalla-de-space-stars.-imagen-de-estrellas-1024x620.jpg",
     dateCreation:"17/04/2022",    
     caption:"Beatiful pic",
     getGeneralInfo: function(){
-      return `Post created by: ${this.userCreator}, with this image: ${this.imageVideoUrl} on ${this.dateCreation}.`
+      return `Storie created by: ${this.userCreator}, with this image: ${this.imageVideoUrl} on ${this.dateCreation}.`
     }
    }
 
-   console.log("Historia creada por: " + historia.userCreator)
-   console.log(historia.getGeneralInfo())
+   console.log("Storie created by: " + storie.userCreator)
+   console.log(storie.getGeneralInfo())
